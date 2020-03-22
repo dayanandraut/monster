@@ -27,7 +27,7 @@ class App extends Component{
     const filteredHeros = heroes.filter(h=>h.name.toLowerCase().includes(searchKey.toLowerCase()))
     return(     
         <div className="App"> 
-        <h1>Heroes Summit</h1>
+        <h1>Legends Summit</h1>
         <SearchBox
         placeholder="search hero"
         handleChange= {   e =>  this.setState({searchKey:e.target.value} )}           
